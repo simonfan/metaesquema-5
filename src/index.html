@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		body {
+		  margin: 0 0;
+		  font-family: monospace;
+		  font-size: 10px;
+		}
+
+		button[data-reset] {
+			position: fixed;
+			top: 10px;
+			right: 10px;
+		}
+
+		#controls {
+			position: fixed;
+			z-index: 2;
+			bottom: 0;
+			right: 0;
+
+			background-color: black;
+			color: white;
+			padding: 2px;
+		}
+	</style>
+</head>
+<body>
+  <canvas></canvas>
+  <div id="controls">
+  	<div id="mouse-position"></div>
+  </div>
+	<script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "comp",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "browserify": "^14.5.0",
+    "gulp": "^3.9.1",
+    "gulp-size": "^2.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "clone": "^2.1.1",
+    "deepmerge": "^2.0.1",
+    "matter-collision": "git+ssh://git@github.com/simonfan/matter-collision.git",
+    "matter-js": "^0.13.0",
+    "metaesquema-util": "git+ssh://git@github.com/simonfan/metaesquema-util.git",
+    "mousetrap": "^1.6.1",
+    "tone": "^0.11.11"
+  }
+}
